@@ -87,11 +87,7 @@ curl -X POST "http://localhost:8000/predict" -H "Content-Type: application/json"
 ```
 PowerShell:
 ```commandline
-curl.exe -X POST "http://localhost:8000/predict"   -H "Content-Type: application/json"   -d '{\"text\": \"Сегодня отличный день\"}'
-```
-CMD:
-```commandline
-curl -X POST http://localhost:8000/predict -H "Content-Type: application/json" -d "{\"text\": \"Сегодня отличный день\"}"
+curl.exe -X POST "http://localhost:8000/predict" -H "Content-Type: application/json" -d '{\"text\": \"Сегодня отличный день\"}'
 ```
 Альтернативный способ для некоторых терминалов или для более длинных запросов:
 1. Создать файл data.json c содержимым:
